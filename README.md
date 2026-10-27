@@ -13,7 +13,7 @@ Portfolio: https://salamraghe.github.io/
 - **[Entra PIM](https://github.com/salamraghe/entra-pim)** (Oct 2026): I made a user only eligible for User Administrator. To use it they needed MFA, a reason and my approval, and it expired after 1 hour. Every step is in the audit log.
 
 **Cloud identity (Microsoft Entra ID)**
-- **[Entra IAM lab](https://github.com/salamraghe/entra-iam-lab)** (Sep 2026): I set up users, groups, P2 licensing, Conditional Access MFA on a group, a leaver offboard, SAML SSO and OIDC.
+- **[Entra IAM lab](https://github.com/salamraghe/entra-iam-lab)** (Sep 2026): I set up users, groups and P2 licensing. In Entra I required MFA for a test group with Conditional Access and gave that group SSO to a SAML app and an OIDC app. For a leaver, I disabled the account, revoked sessions, and removed the license and groups.
 - **[Entra access review](https://github.com/salamraghe/entra-access-review)** (Oct 2026): I reviewed a group, denied an inactive user with a reason, and auto-apply removed them.
 - **[Entra SCIM provisioning](https://github.com/salamraghe/entra-scim-provisioning)** (Oct 2026): I assigned a user in Entra and Entra built their account in a SCIM test app by itself. Leaver step is partial: Entra shows IsActive False, but app-side deactivation isn't shown.
 - **[ServiceNow identity tickets](https://github.com/salamraghe/servicenow-identity-tickets)** (Oct 2026): I worked joiner, mover and leaver tickets in ServiceNow, did each change in Entra ID, and closed them with work notes and resolution notes.
